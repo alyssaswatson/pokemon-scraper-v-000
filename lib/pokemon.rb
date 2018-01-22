@@ -1,6 +1,6 @@
 class Pokemon
 
-  def initialize(id = NIL, name = NIL, type = NIL, db = NIL)
+  def initialize(id:, name:, type:, db:)
     @id = id
     @name = name
     @type = type
